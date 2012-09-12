@@ -1,4 +1,4 @@
-use Test::More;
+use Test::More skip_all => 'not really a module - this is a P5U command';
 use Test::Pod::Coverage;
 
 my @modules = qw(P5U::Command::Changes);
